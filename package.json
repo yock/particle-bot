@@ -1,0 +1,17 @@
+{
+  "name": "particle-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "test": "node diag.js",
+    "flash": "node flash.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "johnny-five": "^0.9.58",
+    "particle-io": "^0.12.0"
+  }
+}
