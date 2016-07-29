@@ -1,3 +1,11 @@
+/*
+
+With much credit to @BrianGenisio, this code is almost entirely his.
+
+https://github.com/CareEvolution/nodebots-unleashed-codemash-docs/blob/master/examples/base-sumobot.js
+
+*/
+
 var five = require("johnny-five");
 var Particle = require("particle-io");
 
