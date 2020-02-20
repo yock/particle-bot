@@ -21,8 +21,8 @@ board.on("ready", function() {
 
   var leftWheelSpeedPin = 'D0';
   var leftWheelDirPin = 'D1';
-  var rightWheelSpeedPin = 'D2';
-  var rightWheelDirPin = 'D3';
+  var rightWheelSpeedPin = 'D3';
+  var rightWheelDirPin = 'D2';
 
   var rightWheel = new five.Motor({
     pins: { pwm: rightWheelSpeedPin, dir: rightWheelDirPin },
